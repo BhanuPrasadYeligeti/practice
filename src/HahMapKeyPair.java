@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Anagram {
+public class HahMapKeyPair {
     public static void main(String[] args) {
 
         HashMap<Character, Integer> map = new HashMap<>();

@@ -1,12 +1,9 @@
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 
-public class Primepair {
-    public static void main(String[] args) {
-        int n;
-        Scanner sc=new Scanner(System.in);
-        System.out.print("enter the n value");
-        n=sc.nextInt();
+public class PrimeWithFunction {
+    public static void isprime(int n)
+    {
         ArrayList<Integer> arr=new ArrayList<>();
         int k=0;
         for(int i=2;i<n;i++)
@@ -44,6 +41,12 @@ public class Primepair {
         {
             System.out.print("the given value doesn't contains values");
         }
-
+    }
+    public static void main(String[] args) {
+        int n;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the n value");
+        n=sc.nextInt();
+        isprime(n);
     }
 }

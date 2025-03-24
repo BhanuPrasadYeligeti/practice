@@ -16,7 +16,7 @@ public class HahMapKeyPair {
         ma.put('c', 19);
         ma.put('j', 6);
 
-
+System.out.print("the matched key pirs values:");
         for (Map.Entry<Character, Integer> entry : map.entrySet()) {
             for (Map.Entry<Character, Integer> en : ma.entrySet()) {
 

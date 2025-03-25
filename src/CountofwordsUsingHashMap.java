@@ -1,7 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+//input:aa bb cc bb
+//output:aa->2 b->2
 public class CountofwordsUsingHashMap {
     public static void main(String[] args) {
         HashMap<String,Integer> map=new HashMap<>();

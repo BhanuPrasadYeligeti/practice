@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-
+//we are printing the  maximum key value pair
 public class Maximumkeyvaluepair {
     public static void main(String[] args) {
         HashMap<String, Integer> map = new HashMap<>();
@@ -15,11 +15,11 @@ public class Maximumkeyvaluepair {
             if(entry.getValue()>max)
             {
                 max= entry.getValue();
-                str = entry.getKey();
+                str= entry.getKey();
             }
 
         }
-        System.out.print(map.get(str));
+        System.out.print(str+""+max);
 
     }
 }

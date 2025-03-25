@@ -1,7 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+//input:1 2 1 3 2 1
+//output:1 2
 public class DuplicatesusinghHashmap {
     public static void main(String[] args) {
 
@@ -31,7 +32,7 @@ public class DuplicatesusinghHashmap {
         {
             if(entry.getValue()>=2)
             {
-                System.out.println(entry.getKey()+"->"+ entry.getValue());
+                System.out.println(entry.getKey());
             }
         }
     }

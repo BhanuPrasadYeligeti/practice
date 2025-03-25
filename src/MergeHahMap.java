@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-
+//Adding The HashMap2 Key Value pairs To the HashMap1
 public class MergeHahMap {
     public static void main(String[] args) {
         HashMap<String, Integer> map1 = new HashMap<>();

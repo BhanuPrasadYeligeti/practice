@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-
+//Returns the Matched Key Pair Values
 public class HahMapKeyPair {
     public static void main(String[] args) {
 
@@ -9,12 +9,14 @@ public class HahMapKeyPair {
         map.put('b', 3);
         map.put('c', 19);
         map.put('j', 6);
+        map.put('y', 6);
 
         HashMap<Character, Integer> ma = new HashMap<>();
         ma.put('a', 2);
         ma.put('b', 3);
         ma.put('c', 19);
         ma.put('j', 6);
+        map.put('p', 6);
 
 System.out.print("the matched key pirs values:");
         for (Map.Entry<Character, Integer> entry : map.entrySet()) {
